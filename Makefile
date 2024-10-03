@@ -10,7 +10,7 @@ gen_config:
 
 run_ld:
 	time -f "User: %U seconds, System: %S seconds, Real: %e seconds" \
-		java -jar lib/limes.jar config/config.xml 2>&1 | tee output/limes.log
+		java -Xmx2g -jar lib/limes.jar config/config.xml 2>&1 | tee output/limes.log
 
 # re-run with a modified config
 rerun_ld: gen_config run_ld

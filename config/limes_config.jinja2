@@ -39,7 +39,24 @@
         {%- endfor %}
         <TYPE>{{ target.data_type }}</TYPE>
 	</TARGET>
+	{% if alignment_metric is defined -%}
 	<METRIC>{{ alignment_metric }}</METRIC>
+	{% endif -%}
+	{% if ml_algorithm is defined -%}
+	<MLALGORITHM>
+		<NAME>{{ ml_algorithm.name }}</NAME>
+		<TYPE>{{ ml_algorithm.type }}</TYPE>
+		{% if 'training' in ml_algorithm -%}
+			<TRAINING>{{ ml_algorithm.training }}</TRAINING>
+		{% endif -%}
+		{% for parameter in ml_algorithm.parameters -%}
+        <PARAMETER> 
+			<NAME>{{ parameter.name }}</NAME>
+			<VALUE>{{ parameter.value }}</VALUE>
+		</PARAMETER>
+        {%- endfor %}
+	</MLALGORITHM>
+	{% endif -%}
 	<ACCEPTANCE>
 		<THRESHOLD>{{ acceptance.threshold }}</THRESHOLD>
 		<FILE>{{ acceptance.result_file_path }}</FILE>

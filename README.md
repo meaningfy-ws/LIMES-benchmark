@@ -16,10 +16,12 @@ TED Notices adhering to ePO model are used as the test data.
 * extra description
 
 # experiments
-1. 01: 
+1. 01: heuristic-based
     * metric: `ExactMatch(x.legal_name, y.legal_name)`
     * properties: `"epo:hasLegalName AS nolang->lowercase RENAME legal_name"`
-
+2. 02: ML-based
+    * ML algorithm: Wombat simple
+    * properties: unsupervised
 
 # Steps to run an experiment
 _Note that the config files were archived in ./experiments subdirectories together
