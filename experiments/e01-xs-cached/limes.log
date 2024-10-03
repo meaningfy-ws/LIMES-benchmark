@@ -1,0 +1,16 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+16:05:42.826 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-124012510.ser
+16:05:42.858 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-124012510.ser
+16:05:42.878 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-124012510.ser
+16:05:42.878 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:135 - Size = 11
+16:05:42.879 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1105594298.ser
+16:05:42.879 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1105594298.ser
+16:05:42.883 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1105594298.ser
+16:05:42.885 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:135 - Size = 11
+16:05:43.346 [main] [] WARN  org.apache.sis.system:228 - The “SIS_DATA” environment variable is not set.
+16:05:43.928 [main] [] INFO  org.aksw.limes.core.controller.Controller:236 - Mapping task finished in 1033 ms
+16:05:43.943 [main] [] INFO  org.aksw.limes.core.controller.Controller:240 - Mapping size: 121 (accepted) + 0 (need verification) = 121 (total)
+16:05:43.944 [main] [] INFO  org.aksw.limes.core.controller.Controller:110 - Writing result files...
+16:05:43.945 [main] [] INFO  org.aksw.limes.core.io.serializer.SerializerFactory:32 - Getting serializer with name NT
+16:05:43.964 [main] [] INFO  org.aksw.limes.core.controller.Controller:113 - Writing statistics file...
+User: 3.63 seconds, System: 0.43 seconds, Real: 2.37 seconds

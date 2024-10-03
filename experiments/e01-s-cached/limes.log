@@ -1,0 +1,16 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+13:39:19.755 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1269711327.ser
+13:39:19.789 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1269711327.ser
+13:39:19.821 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1269711327.ser
+13:39:19.821 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:135 - Size = 101
+13:39:19.822 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/2043674181.ser
+13:39:19.822 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/2043674181.ser
+13:39:19.830 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/2043674181.ser
+13:39:19.831 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:135 - Size = 101
+13:39:20.219 [main] [] WARN  org.apache.sis.system:228 - The “SIS_DATA” environment variable is not set.
+13:39:20.695 [main] [] INFO  org.aksw.limes.core.controller.Controller:236 - Mapping task finished in 838 ms
+13:39:20.737 [main] [] INFO  org.aksw.limes.core.controller.Controller:240 - Mapping size: 10201 (accepted) + 0 (need verification) = 10201 (total)
+13:39:20.739 [main] [] INFO  org.aksw.limes.core.controller.Controller:110 - Writing result files...
+13:39:20.740 [main] [] INFO  org.aksw.limes.core.io.serializer.SerializerFactory:32 - Getting serializer with name NT
+13:39:20.812 [main] [] INFO  org.aksw.limes.core.controller.Controller:113 - Writing statistics file...
+User: 3.90 seconds, System: 0.26 seconds, Real: 2.25 seconds

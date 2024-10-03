@@ -1,0 +1,16 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+11:38:38.570 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/2083683306.ser
+11:38:38.602 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/2083683306.ser
+11:38:38.656 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/2083683306.ser
+11:38:38.657 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:135 - Size = 289
+11:38:38.657 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1102101518.ser
+11:38:38.658 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1102101518.ser
+11:38:38.672 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1102101518.ser
+11:38:38.673 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:135 - Size = 289
+11:38:39.066 [main] [] WARN  org.apache.sis.system:228 - The “SIS_DATA” environment variable is not set.
+11:38:39.590 [main] [] INFO  org.aksw.limes.core.controller.Controller:236 - Mapping task finished in 883 ms
+11:38:39.637 [main] [] INFO  org.aksw.limes.core.controller.Controller:240 - Mapping size: 11569 (accepted) + 0 (need verification) = 11569 (total)
+11:38:39.639 [main] [] INFO  org.aksw.limes.core.controller.Controller:110 - Writing result files...
+11:38:39.641 [main] [] INFO  org.aksw.limes.core.io.serializer.SerializerFactory:32 - Getting serializer with name NT
+11:38:39.757 [main] [] INFO  org.aksw.limes.core.controller.Controller:113 - Writing statistics file...
+User: 5.07 seconds, System: 0.30 seconds, Real: 2.30 seconds
