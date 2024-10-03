@@ -1,0 +1,113 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+13:26:56.586 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/2083683306.ser
+13:26:56.619 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:142 - No cached data found for src
+13:26:56.621 [main] [] INFO  org.aksw.limes.core.io.query.QueryModuleFactory:35 - Generating <SPARQL> reader
+13:26:56.660 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:280 - Query issued is 
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX tedd: <http://data.europa.eu/a4g/dataset/sf-rml/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX epo-not: <http://data.europa.eu/a4g/ontology#>
+PREFIX tedm: <http://data.europa.eu/a4g/mapping/sf-rml/>
+PREFIX ht: <http://www.w3.org/2006/http#>
+PREFIX rml: <http://semweb.mmlab.be/ns/rml#>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX cccev: <http://data.europa.eu/m8g/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX epd: <http://data.europa.eu/a4g/resource/>
+PREFIX legal: <https://www.w3.org/ns/legal#>
+PREFIX ql: <http://semweb.mmlab.be/ns/ql#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX map: <http://mapping.example.com/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX cc: <http://creativecommons.org/ns#>
+PREFIX epos: <http://data.europa.eu/a4g/shape#>
+PREFIX epor: <http://data.europa.eu/a4g/rule#>
+PREFIX grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+PREFIX cpv: <http://data.europa.eu/m8g/>
+PREFIX xf: <http://www.w3.org/TR/xforms-xpath#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX cv: <http://data.europa.eu/m8g/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX v: <http://rdf.data-vocabulary.org/#>
+PREFIX cpov: <http://data.europa.eu/m8g/>
+PREFIX dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+SELECT DISTINCT ?x ?v1
+WHERE {
+?x a org:Organization .
+?x epo:hasLegalName ?v1 .
+}
+13:26:56.661 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:66 - Querying the endpoint.
+13:26:56.669 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:81 - Getting statements 0 to 2000
+13:26:57.140 [main] [] WARN  org.apache.sis.system:228 - The “SIS_DATA” environment variable is not set.
+13:26:59.062 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:81 - Getting statements 2000 to 4000
+13:26:59.120 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:186 - Retrieved 290 triples and 289 entities.
+13:26:59.121 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:187 - Retrieving statements took 2.493 seconds.
+13:26:59.153 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:326 - Serializing 289 objects to /home/greg/EXPERIMENTS/LIMES-benchmark/cache/2083683306.ser
+13:26:59.223 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1102101518.ser
+13:26:59.224 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:142 - No cached data found for tgt
+13:26:59.225 [main] [] INFO  org.aksw.limes.core.io.query.QueryModuleFactory:35 - Generating <SPARQL> reader
+13:26:59.226 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:280 - Query issued is 
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX tedd: <http://data.europa.eu/a4g/dataset/sf-rml/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX epo-not: <http://data.europa.eu/a4g/ontology#>
+PREFIX tedm: <http://data.europa.eu/a4g/mapping/sf-rml/>
+PREFIX ht: <http://www.w3.org/2006/http#>
+PREFIX rml: <http://semweb.mmlab.be/ns/rml#>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX cccev: <http://data.europa.eu/m8g/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX epd: <http://data.europa.eu/a4g/resource/>
+PREFIX legal: <https://www.w3.org/ns/legal#>
+PREFIX ql: <http://semweb.mmlab.be/ns/ql#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX map: <http://mapping.example.com/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX cc: <http://creativecommons.org/ns#>
+PREFIX epos: <http://data.europa.eu/a4g/shape#>
+PREFIX epor: <http://data.europa.eu/a4g/rule#>
+PREFIX grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+PREFIX cpv: <http://data.europa.eu/m8g/>
+PREFIX xf: <http://www.w3.org/TR/xforms-xpath#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX cv: <http://data.europa.eu/m8g/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX v: <http://rdf.data-vocabulary.org/#>
+PREFIX cpov: <http://data.europa.eu/m8g/>
+PREFIX dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+SELECT DISTINCT ?y ?v1
+WHERE {
+?y a org:Organization .
+?y epo:hasLegalName ?v1 .
+}
+13:26:59.228 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:66 - Querying the endpoint.
+13:26:59.229 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:81 - Getting statements 0 to 2000
+13:26:59.320 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:81 - Getting statements 2000 to 4000
+13:26:59.387 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:186 - Retrieved 290 triples and 289 entities.
+13:26:59.389 [main] [] INFO  org.aksw.limes.core.io.query.SparqlQueryModule:187 - Retrieving statements took 0.162 seconds.
+13:26:59.410 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:326 - Serializing 289 objects to /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1102101518.ser
+13:27:00.706 [main] [] INFO  org.aksw.limes.core.controller.MLPipeline:114 - Learned: MINUS(jaccard(x.legal_name,y.legal_name)|1.0,qgrams(x.legal_name,y.legal_name)|1.0) with threshold: 0.0
+13:27:00.751 [main] [] INFO  org.aksw.limes.core.controller.Controller:236 - Mapping task finished in 1224 ms
+13:27:00.764 [main] [] INFO  org.aksw.limes.core.controller.Controller:240 - Mapping size: 628 (accepted) + 0 (need verification) = 628 (total)
+13:27:00.767 [main] [] INFO  org.aksw.limes.core.controller.Controller:110 - Writing result files...
+13:27:00.771 [main] [] INFO  org.aksw.limes.core.io.serializer.SerializerFactory:32 - Getting serializer with name NT
+13:27:00.795 [main] [] INFO  org.aksw.limes.core.controller.Controller:113 - Writing statistics file...
+User: 8.76 seconds, System: 1.09 seconds, Real: 6.04 seconds

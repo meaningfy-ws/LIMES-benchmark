@@ -1,0 +1,119 @@
+2024-10-03T14:58:12,704 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1674098331.ser
+2024-10-03T14:58:12,708 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 142 - No cached data found for src
+2024-10-03T14:58:12,710 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.QueryModuleFactory 35 - Generating <TURTLE> reader
+2024-10-03T14:58:13,097 [ForkJoinPool.commonPool-worker-3] WARN org.apache.sis.system 228 - The “SIS_DATA” environment variable is not set.
+2024-10-03T14:58:14,187 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.FileQueryModule 69 - RDF model read from /home/greg/EXPERIMENTS/LIMES-benchmark/data/m_1e1000m.ttl is of size 18900
+2024-10-03T14:58:14,188 [ForkJoinPool.commonPool-worker-3] INFO LIMES 49 - Registry = [/home/greg/EXPERIMENTS/LIMES-benchmark/data/m_1e1000m.ttl]
+2024-10-03T14:58:14,230 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 280 - Query issued is 
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX tedd: <http://data.europa.eu/a4g/dataset/sf-rml/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX epo-not: <http://data.europa.eu/a4g/ontology#>
+PREFIX tedm: <http://data.europa.eu/a4g/mapping/sf-rml/>
+PREFIX ht: <http://www.w3.org/2006/http#>
+PREFIX rml: <http://semweb.mmlab.be/ns/rml#>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX cccev: <http://data.europa.eu/m8g/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX epd: <http://data.europa.eu/a4g/resource/>
+PREFIX legal: <https://www.w3.org/ns/legal#>
+PREFIX ql: <http://semweb.mmlab.be/ns/ql#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX map: <http://mapping.example.com/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX cc: <http://creativecommons.org/ns#>
+PREFIX epos: <http://data.europa.eu/a4g/shape#>
+PREFIX epor: <http://data.europa.eu/a4g/rule#>
+PREFIX grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+PREFIX cpv: <http://data.europa.eu/m8g/>
+PREFIX xf: <http://www.w3.org/TR/xforms-xpath#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX cv: <http://data.europa.eu/m8g/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX v: <http://rdf.data-vocabulary.org/#>
+PREFIX cpov: <http://data.europa.eu/m8g/>
+PREFIX dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+SELECT DISTINCT ?x ?v1
+WHERE {
+?x a org:Organization .
+?x epo:hasLegalName ?v1 .
+}
+2024-10-03T14:58:14,232 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 66 - Querying the endpoint.
+2024-10-03T14:58:14,236 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 81 - Getting statements 0 to 2000
+2024-10-03T14:58:14,478 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 81 - Getting statements 2000 to 4000
+2024-10-03T14:58:14,495 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 186 - Retrieved 1010 triples and 1010 entities.
+2024-10-03T14:58:14,497 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 187 - Retrieving statements took 0.301 seconds.
+2024-10-03T14:58:14,509 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 326 - Serializing 1010 objects to /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1674098331.ser
+2024-10-03T14:58:14,585 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/692516543.ser
+2024-10-03T14:58:14,585 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 142 - No cached data found for tgt
+2024-10-03T14:58:14,586 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.QueryModuleFactory 35 - Generating <TURTLE> reader
+2024-10-03T14:58:15,013 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.FileQueryModule 69 - RDF model read from /home/greg/EXPERIMENTS/LIMES-benchmark/data/m_1e1000m.ttl is of size 18900
+2024-10-03T14:58:15,014 [ForkJoinPool.commonPool-worker-3] INFO LIMES 49 - Registry = [/home/greg/EXPERIMENTS/LIMES-benchmark/data/m_1e1000m.ttl]
+2024-10-03T14:58:15,015 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 280 - Query issued is 
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX tedd: <http://data.europa.eu/a4g/dataset/sf-rml/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX epo-not: <http://data.europa.eu/a4g/ontology#>
+PREFIX tedm: <http://data.europa.eu/a4g/mapping/sf-rml/>
+PREFIX ht: <http://www.w3.org/2006/http#>
+PREFIX rml: <http://semweb.mmlab.be/ns/rml#>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX cccev: <http://data.europa.eu/m8g/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX epd: <http://data.europa.eu/a4g/resource/>
+PREFIX legal: <https://www.w3.org/ns/legal#>
+PREFIX ql: <http://semweb.mmlab.be/ns/ql#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX map: <http://mapping.example.com/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX cc: <http://creativecommons.org/ns#>
+PREFIX epos: <http://data.europa.eu/a4g/shape#>
+PREFIX epor: <http://data.europa.eu/a4g/rule#>
+PREFIX grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+PREFIX cpv: <http://data.europa.eu/m8g/>
+PREFIX xf: <http://www.w3.org/TR/xforms-xpath#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX cv: <http://data.europa.eu/m8g/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX v: <http://rdf.data-vocabulary.org/#>
+PREFIX cpov: <http://data.europa.eu/m8g/>
+PREFIX dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+SELECT DISTINCT ?y ?v1
+WHERE {
+?y a org:Organization .
+?y epo:hasLegalName ?v1 .
+}
+2024-10-03T14:58:15,017 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 66 - Querying the endpoint.
+2024-10-03T14:58:15,018 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 81 - Getting statements 0 to 2000
+2024-10-03T14:58:15,038 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 81 - Getting statements 2000 to 4000
+2024-10-03T14:58:15,053 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 186 - Retrieved 1010 triples and 1010 entities.
+2024-10-03T14:58:15,053 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.query.SparqlQueryModule 187 - Retrieving statements took 0.038 seconds.
+2024-10-03T14:58:15,054 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 326 - Serializing 1010 objects to /home/greg/EXPERIMENTS/LIMES-benchmark/cache/692516543.ser
+2024-10-03T14:58:15,513 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.controller.Controller 236 - Mapping task finished in 386 ms
+2024-10-03T14:58:16,422 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.controller.Controller 240 - Mapping size: 1020100 (accepted) + 0 (need verification) = 1020100 (total)
+2024-10-03T14:58:16,424 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.serializer.SerializerFactory 32 - Getting serializer with name NT
+2024-10-03T14:58:16,425 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 183 - Error creating PrintWriter
+2024-10-03T14:58:16,426 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 184 - /home/greg/EXPERIMENTS/LIMES-benchmark/.server-storage/5957897037225744488/output/review.ttl (No such file or directory)
+2024-10-03T14:58:16,428 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 166 - Error closing PrintWriter
+2024-10-03T14:58:16,428 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 167 - null
+2024-10-03T14:58:16,428 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 183 - Error creating PrintWriter
+2024-10-03T14:58:16,429 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 184 - /home/greg/EXPERIMENTS/LIMES-benchmark/.server-storage/5957897037225744488/output/acceptance.ttl (No such file or directory)
+User: 0.29 seconds, System: 0.06 seconds, Real: 4.49 seconds

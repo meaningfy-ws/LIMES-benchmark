@@ -1,0 +1,17 @@
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+14:05:34.009 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-588707746.ser
+14:05:34.039 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-588707746.ser
+14:05:34.110 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-588707746.ser
+14:05:34.111 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:135 - Size = 1010
+14:05:34.112 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1570289534.ser
+14:05:34.112 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1570289534.ser
+14:05:34.139 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/-1570289534.ser
+14:05:34.140 [main] [] INFO  org.aksw.limes.core.io.cache.HybridCache:135 - Size = 1010
+14:05:34.745 [main] [] WARN  org.apache.sis.system:228 - The “SIS_DATA” environment variable is not set.
+14:06:36.454 [main] [] INFO  org.aksw.limes.core.controller.MLPipeline:114 - Learned: jaccard(x.legal_name,y.legal_name)|1.0 with threshold: 1.0
+14:06:38.487 [main] [] INFO  org.aksw.limes.core.controller.Controller:236 - Mapping task finished in 64251 ms
+14:06:38.973 [main] [] INFO  org.aksw.limes.core.controller.Controller:240 - Mapping size: 1020100 (accepted) + 0 (need verification) = 1020100 (total)
+14:06:38.980 [main] [] INFO  org.aksw.limes.core.controller.Controller:110 - Writing result files...
+14:06:38.984 [main] [] INFO  org.aksw.limes.core.io.serializer.SerializerFactory:32 - Getting serializer with name NT
+14:06:43.796 [main] [] INFO  org.aksw.limes.core.controller.Controller:113 - Writing statistics file...
+User: 111.88 seconds, System: 35.16 seconds, Real: 73.75 seconds

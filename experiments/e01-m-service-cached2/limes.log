@@ -1,0 +1,18 @@
+2024-10-03T15:01:28,180 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1674098331.ser
+2024-10-03T15:01:28,187 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1674098331.ser
+2024-10-03T15:01:28,256 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/1674098331.ser
+2024-10-03T15:01:28,257 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 135 - Size = 1010
+2024-10-03T15:01:28,258 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 125 - Checking for file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/692516543.ser
+2024-10-03T15:01:28,258 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 128 - Found cached data. Loading data from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/692516543.ser
+2024-10-03T15:01:28,281 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 134 - Cached data loaded successfully from file /home/greg/EXPERIMENTS/LIMES-benchmark/cache/692516543.ser
+2024-10-03T15:01:28,282 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.cache.HybridCache 135 - Size = 1010
+2024-10-03T15:01:28,621 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.controller.Controller 236 - Mapping task finished in 314 ms
+2024-10-03T15:01:29,377 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.controller.Controller 240 - Mapping size: 1020100 (accepted) + 0 (need verification) = 1020100 (total)
+2024-10-03T15:01:29,378 [ForkJoinPool.commonPool-worker-3] INFO org.aksw.limes.core.io.serializer.SerializerFactory 32 - Getting serializer with name NT
+2024-10-03T15:01:29,379 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 183 - Error creating PrintWriter
+2024-10-03T15:01:29,380 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 184 - /home/greg/EXPERIMENTS/LIMES-benchmark/.server-storage/8136689037042144904/output/review.ttl (No such file or directory)
+2024-10-03T15:01:29,381 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 166 - Error closing PrintWriter
+2024-10-03T15:01:29,382 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 167 - null
+2024-10-03T15:01:29,382 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 183 - Error creating PrintWriter
+2024-10-03T15:01:29,382 [ForkJoinPool.commonPool-worker-3] WARN org.aksw.limes.core.io.serializer.NtSerializer 184 - /home/greg/EXPERIMENTS/LIMES-benchmark/.server-storage/8136689037042144904/output/acceptance.ttl (No such file or directory)
+User: 0.22 seconds, System: 0.06 seconds, Real: 2.25 seconds
