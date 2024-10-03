@@ -1,0 +1,191 @@
+@prefix adms: <http://www.w3.org/ns/adms#> .
+@prefix cccev: <http://data.europa.eu/m8g/> .
+@prefix epd: <http://data.europa.eu/a4g/resource/> .
+@prefix epo: <http://data.europa.eu/a4g/ontology#> .
+@prefix locn: <http://www.w3.org/ns/locn#> .
+@prefix ns1: <https://www.w3.org/ns/legal#> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<http://data.europa.eu/a4g/resource/ReviewProcedureInformationProviderOrganisation/2023-S-018-049810/53dcddfe-05e0-31c2-ab22-d770b015238d> a org:Organization ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    epo:hasPrimaryContactPoint <http://data.europa.eu/a4g/resource/ReviewProcedureInformationProviderContactPoint/2023-S-018-049810/53dcddfe-05e0-31c2-ab22-d770b015238d> ;
+    ns1:registeredAddress <http://data.europa.eu/a4g/resource/ReviewProcedureInformationProviderAddress/2023-S-018-049810/53dcddfe-05e0-31c2-ab22-d770b015238d> .
+
+<http://data.europa.eu/a4g/resource/ReviewerOrganisation/2021-S-004-003554/bdZjimbzCaRXbeYeBmF94j> a org:Organization ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    epo:hasPrimaryContactPoint <http://data.europa.eu/a4g/resource/ReviewerContactPoint/2021-S-004-003554/bdZjimbzCaRXbeYeBmF94j> ;
+    ns1:registeredAddress <http://data.europa.eu/a4g/resource/ReviewerOrganisationAddress/2021-S-004-003554/bdZjimbzCaRXbeYeBmF94j> .
+
+<http://data.europa.eu/a4g/resource/ReviewerOrganisation/2023-S-049-143119/bdZjimbzCaRXbeYeBmF94j> a org:Organization ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    ns1:registeredAddress <http://data.europa.eu/a4g/resource/ReviewerOrganisationAddress/2023-S-049-143119/bdZjimbzCaRXbeYeBmF94j> .
+
+epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_Organization_ORG-0002 a org:Organization ;
+    epo:hasLegalIdentifier epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    epo:hasPrimaryContactPoint epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 ;
+    cccev:registeredAddress epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW ;
+    adms:identifier epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_Identifier_ORG-0002 .
+
+epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_Organization_ORG-0002 a org:Organization ;
+    epo:hasLegalIdentifier epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    epo:hasPrimaryContactPoint epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 ;
+    cccev:registeredAddress epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW ;
+    adms:identifier epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_Identifier_ORG-0002 .
+
+epd:id_2023-S-109-340535_ReviewerOrganisation_bdZjimbzCaRXbeYeBmF94j a org:Organization ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    cccev:registeredAddress epd:id_2023-S-109-340535_ReviewerOrganisationAddress_bdZjimbzCaRXbeYeBmF94j .
+
+epd:id_2023-S-153-486363_ReviewProcedureInformationProviderOrganisation_eP5uWDhd4iYABCZbaj8dzQ a org:Organization ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    cccev:registeredAddress epd:id_2023-S-153-486363_ReviewProcedureInformationProviderAddress_eP5uWDhd4iYABCZbaj8dzQ .
+
+epd:id_2023-S-153-486363_ReviewerOrganisation_bdZjimbzCaRXbeYeBmF94j a org:Organization ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    cccev:registeredAddress epd:id_2023-S-153-486363_ReviewerOrganisationAddress_bdZjimbzCaRXbeYeBmF94j .
+
+epd:id_4d161475-0188-46cd-9186-803ca6182241_Organization_ORG-0002 a org:Organization ;
+    epo:hasLegalIdentifier epd:id_4d161475-0188-46cd-9186-803ca6182241_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    epo:hasPrimaryContactPoint epd:id_4d161475-0188-46cd-9186-803ca6182241_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 ;
+    cccev:registeredAddress epd:id_4d161475-0188-46cd-9186-803ca6182241_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW ;
+    adms:identifier epd:id_4d161475-0188-46cd-9186-803ca6182241_Identifier_ORG-0002 .
+
+epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_Organization_ORG-0002 a org:Organization ;
+    epo:hasLegalIdentifier epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    epo:hasPrimaryContactPoint epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 ;
+    cccev:registeredAddress epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW ;
+    adms:identifier epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_Identifier_ORG-0002 .
+
+epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_Organization_ORG-0002 a org:Organization ;
+    epo:hasLegalIdentifier epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk ;
+    epo:hasLegalName "Krajowa Izba Odwoławcza"@pl ;
+    epo:hasPrimaryContactPoint epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 ;
+    cccev:registeredAddress epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW ;
+    adms:identifier epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_Identifier_ORG-0002 .
+
+<http://data.europa.eu/a4g/resource/ReviewProcedureInformationProviderAddress/2023-S-018-049810/53dcddfe-05e0-31c2-ab22-d770b015238d> a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:postCode "02-676" ;
+    locn:postName "Warszawa" ;
+    locn:thoroughfare "ul. POstępu 17A" .
+
+<http://data.europa.eu/a4g/resource/ReviewProcedureInformationProviderContactPoint/2023-S-018-049810/53dcddfe-05e0-31c2-ab22-d770b015238d> a cccev:ContactPoint ;
+    epo:hasInternetAddress "https://www.uzp.gov.pl/kio" ;
+    cccev:email "odwolania@uzp.gov.pl" .
+
+<http://data.europa.eu/a4g/resource/ReviewerContactPoint/2021-S-004-003554/bdZjimbzCaRXbeYeBmF94j> a cccev:ContactPoint ;
+    epo:hasFax "+48 224587800" ;
+    epo:hasInternetAddress "http://www.uzp.gov.pl" ;
+    cccev:email "odwolania@uzp.gov.pl" ;
+    cccev:telephone "+48 224587801" .
+
+<http://data.europa.eu/a4g/resource/ReviewerOrganisationAddress/2021-S-004-003554/bdZjimbzCaRXbeYeBmF94j> a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:postCode "02-676" ;
+    locn:postName "Warszawa" ;
+    locn:thoroughfare "ul. Postępu 17a" .
+
+<http://data.europa.eu/a4g/resource/ReviewerOrganisationAddress/2023-S-049-143119/bdZjimbzCaRXbeYeBmF94j> a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:postCode "02-676" ;
+    locn:postName "Warszawa" .
+
+epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:fullAddress "Warszawa, POL" ;
+    locn:postName "Warszawa" .
+
+epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 a cccev:ContactPoint ;
+    cccev:email "odwolania@uzp.gov.pl" ;
+    cccev:telephone "+22 458 78 01" .
+
+epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_Identifier_ORG-0002 a adms:Identifier ;
+    skos:notation "ORG-0002" .
+
+epd:id_1b4bd9df-28a8-46cd-a0c2-1f78956bc512_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk a adms:Identifier ;
+    skos:notation "5262239325" .
+
+epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:fullAddress "Warszawa, POL" ;
+    locn:postName "Warszawa" .
+
+epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 a cccev:ContactPoint ;
+    cccev:email "odwolania@uzp.gov.pl" ;
+    cccev:telephone "+22 458 78 01" .
+
+epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_Identifier_ORG-0002 a adms:Identifier ;
+    skos:notation "ORG-0002" .
+
+epd:id_1f1c8044-88b5-45e9-b9ea-2ba56fd47b77_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk a adms:Identifier ;
+    skos:notation "5262239325" .
+
+epd:id_2023-S-109-340535_ReviewerOrganisationAddress_bdZjimbzCaRXbeYeBmF94j a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:postCode "02-676" ;
+    locn:postName "Warszawa" ;
+    locn:thoroughfare "Postępu 17a" .
+
+epd:id_2023-S-153-486363_ReviewProcedureInformationProviderAddress_eP5uWDhd4iYABCZbaj8dzQ a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:postCode "02-676" ;
+    locn:postName "Warszawa" ;
+    locn:thoroughfare "Postępu 17a" .
+
+epd:id_2023-S-153-486363_ReviewerOrganisationAddress_bdZjimbzCaRXbeYeBmF94j a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:postCode "02-676" ;
+    locn:postName "Warszawa" ;
+    locn:thoroughfare "Postępu 17a" .
+
+epd:id_4d161475-0188-46cd-9186-803ca6182241_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:fullAddress "Warszawa, POL" ;
+    locn:postName "Warszawa" .
+
+epd:id_4d161475-0188-46cd-9186-803ca6182241_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 a cccev:ContactPoint ;
+    cccev:email "odwolania@uzp.gov.pl" ;
+    cccev:telephone "+48224587801" .
+
+epd:id_4d161475-0188-46cd-9186-803ca6182241_Identifier_ORG-0002 a adms:Identifier ;
+    skos:notation "ORG-0002" .
+
+epd:id_4d161475-0188-46cd-9186-803ca6182241_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk a adms:Identifier ;
+    skos:notation "5262239325" .
+
+epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:fullAddress "ul. Postępu 17A, Warszawa, 02-676, POL" ;
+    locn:postCode "02-676" ;
+    locn:postName "Warszawa" .
+
+epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 a cccev:ContactPoint ;
+    cccev:email "UZP@UZP.GOV.PL" ;
+    cccev:telephone "815344610" .
+
+epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_Identifier_ORG-0002 a adms:Identifier ;
+    skos:notation "ORG-0002" .
+
+epd:id_8c7613a4-6b35-4e43-b20a-74a8c1fecdc9_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk a adms:Identifier ;
+    skos:notation "5262239325" .
+
+epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_CompanyAddress_kp4YHhT2Gw9BnTPKnwxcdW a locn:Address ;
+    epo:hasCountryCode <http://publications.europa.eu/resource/authority/country/POL> ;
+    locn:fullAddress "ul. Postępu 17a 02-676 Warszawa, POL" ;
+    locn:postName "ul. Postępu 17a 02-676 Warszawa" .
+
+epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_CompanyContactPoint_CCKfjNm3UAMuYf3dDso6C2 a cccev:ContactPoint ;
+    cccev:email "odwolania@uzp.gov.pl" ;
+    cccev:telephone "+48 (22) 458 78 01" .
+
+epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_Identifier_ORG-0002 a adms:Identifier ;
+    skos:notation "ORG-0002" .
+
+epd:id_ebe90d49-dc1c-497b-b059-96ec4b7955de_OrganisationIdentifier_ZowVe8fwBUBP7Pd4ikinCk a adms:Identifier ;
+    skos:notation "5262239325" .
+

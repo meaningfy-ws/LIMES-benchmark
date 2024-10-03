@@ -1,0 +1,46 @@
+PREFIX epo-at: <http://publications.europa.eu/resource/authority/>
+PREFIX rr: <http://www.w3.org/ns/r2rml#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX tedd: <http://data.europa.eu/a4g/dataset/sf-rml/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX epo-not: <http://data.europa.eu/a4g/ontology#>
+PREFIX tedm: <http://data.europa.eu/a4g/mapping/sf-rml/>
+PREFIX ht: <http://www.w3.org/2006/http#>
+PREFIX rml: <http://semweb.mmlab.be/ns/rml#>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX cccev: <http://data.europa.eu/m8g/>
+PREFIX xml: <http://www.w3.org/XML/1998/namespace>
+PREFIX epd: <http://data.europa.eu/a4g/resource/>
+PREFIX legal: <https://www.w3.org/ns/legal#>
+PREFIX ql: <http://semweb.mmlab.be/ns/ql#>
+PREFIX vann: <http://purl.org/vocab/vann/>
+PREFIX locn: <http://www.w3.org/ns/locn#>
+PREFIX map: <http://mapping.example.com/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX cc: <http://creativecommons.org/ns#>
+PREFIX epos: <http://data.europa.eu/a4g/shape#>
+PREFIX epor: <http://data.europa.eu/a4g/rule#>
+PREFIX grel: <http://users.ugent.be/~bjdmeest/function/grel.ttl#>
+PREFIX org: <http://www.w3.org/ns/org#>
+PREFIX epo: <http://data.europa.eu/a4g/ontology#>
+PREFIX cpv: <http://data.europa.eu/m8g/>
+PREFIX xf: <http://www.w3.org/TR/xforms-xpath#>
+PREFIX geosparql: <http://www.opengis.net/ont/geosparql#>
+PREFIX cv: <http://data.europa.eu/m8g/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX v: <http://rdf.data-vocabulary.org/#>
+PREFIX cpov: <http://data.europa.eu/m8g/>
+PREFIX dul: <http://www.loa-cnr.it/ontologies/DUL.owl#>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+
+
+SELECT
+    ?org1 ?org2
+where {
+    ?org1 owl:sameAs ?org2 .
+    # FILTER(?org1 != ?org2)
+}
