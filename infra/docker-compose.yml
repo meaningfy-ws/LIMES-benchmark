@@ -1,0 +1,34 @@
+services:
+  graphdb:
+    container_name: benchmark-graphdb
+    image: ontotext/graphdb:${GRAPHDB_VERSION}
+    restart: unless-stopped
+    mem_limit: 2g
+    mem_reservation: 512m
+    stop_grace_period: 1m
+    profiles:
+      - service
+    environment:
+      GDB_JAVA_OPTS: >-
+        -XX:+UseContainerSupport -XX:InitialRAMPercentage=30.0
+        -XX:MaxRAMPercentage=75.0
+        -Dgraphdb.workbench.importDirectory=/opt/graphdb/home/graphdb-import
+        -Dorg.eclipse.rdf4j.rio.encode_rdf_star=false
+    ports:
+      - '7288:7200'
+    networks:
+      - benchmark_network
+    volumes:
+      - benchmark_graphdb_data_volume:/opt/graphdb/home
+      - ${REPOSITORY_CONFIG_FILE}:/opt/graphdb/graphdb-repo-config.ttl
+    logging:
+      driver: json-file
+      options:
+        max-size: 200k
+        max-file: '10'
+
+volumes:
+  benchmark_graphdb_data_volume:
+
+networks:
+  benchmark_network: null

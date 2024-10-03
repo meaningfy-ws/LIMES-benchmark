@@ -1,0 +1,15 @@
+#!/bin/bash
+
+fetch_status() {
+    curl --silent http://localhost:8080/status/${request_id} | jq -r .status.code
+}
+
+request_id=$(curl --silent -F config_file=@../config/config.xml  http://localhost:8080/submit | jq -r .requestId)
+job_status=$(fetch_status)
+urlstatus=$(fetch_status)          # initialize to actual value before we sleep even once
+until [ "$job_status" = 2 ]; do
+    sleep 1
+    job_status=$(fetch_status)
+done
+
+curl -o ../output/limes.log --silent http://localhost:8080/logs/${request_id}

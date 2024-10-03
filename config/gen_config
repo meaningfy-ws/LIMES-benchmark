@@ -1,0 +1,3 @@
+#!/bin/bash
+
+jinja2 ./limes_config.jinja2 config.json --format=json > config.xml
